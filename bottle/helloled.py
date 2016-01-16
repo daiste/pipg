@@ -4,7 +4,7 @@ from time import sleep
 
 led = LED(18)
 button = Button(2)
-active = False
+active = True
 
 @route('/hello/:name')
 def index(name='World'):
